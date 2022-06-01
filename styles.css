@@ -27,8 +27,7 @@ body {
     color: var(--theme-body-color);
     font-family: tahoma, verdana, arial;
     font-size: 16px;
-    
-    
+   
 }
 
 .main-container, .resizable-container, .header-wrapper {
@@ -76,4 +75,14 @@ body {
 .span__navi {
     background-color: black;
     padding: auto;
+}
+
+/*————————————————————————————————PAGE—————————————————————————————————————*/
+
+.page-wrapper {
+    max-width: none;
+}
+
+.page-content {
+    margin: 40px 20px;
 }
